@@ -10,18 +10,17 @@
   ],
   "license": "MIT",
   "repository": {
-    "url": "git://github.com/trustnote/trustnote-bot.git",
+    "url": "git://github.com/trustnote/trustnote-bot-example.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/trustnote/trustnote-bot/issues"
+    "url": "https://github.com/trustnote/trustnote-bot-example/issues"
   },
   "browser": {
     "request": "browser-request",
     "secp256k1": "secp256k1/js"
   },
   "dependencies": {
-    "request": "^2.87.0",
     "trustnote-common": "git+https://github.com/trustnote/trustnote-common.git",
     "trustnote-headless": "git+https://github.com/trustnote/trustnote-headless.git"
   }

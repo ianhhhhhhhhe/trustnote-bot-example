@@ -1,10 +1,22 @@
-# bot部署手册
+# Bot Example
 
-* ```npm install```
-* 第一次启动bot
-* 去```~/.config/trustnote-bot```目录下更新```conf.js```中的```from_email```和```admin_email```
-* 在```trustnote.sqlite```中获取```my_addresses```中的第一个address
-* 将bot项目目录中的```conf.js```中的botAddress设置成这个address
-* 在```trustnote.sqlite```插入bot目录中的```bot.sql```
-* 更新bot目录中的```conf.js```中的```TIMESTAMPER_ADDRESS```以及```server_url```
-* 正常启动bot
+Example for Trustnote chatbot.
+
+## Requirements
+
+* node.js 6+
+
+## Install
+```
+npm install
+```
+## Run
+```
+node start.js
+```
+Note the line that it prints on start-up:
+```
+====== my pairing code: A5NEjZURe4yXrMT0I1KFycQSd9CyDSz+8T7o4OzOIee5@activity.trustnote.org/tn#0000
+```
+
+Copy this pairing code to your Trustnote wallet: Chat tab, Add a new device, Accept invitation, paste the code, ready to chat.
