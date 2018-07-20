@@ -10,7 +10,7 @@ exports.bIgnoreUnpairRequests = true;
 exports.storage = 'sqlite';
 
 
-exports.hub = 'activity.trustnote.org';
+exports.hub = 'victor.trustnote.org/tn';
 exports.deviceName = 'myBot';
 exports.permanent_pairing_secret = '0000';
 exports.control_addresses = ['DEVICE ALLOWED TO CHAT'];
