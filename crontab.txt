@@ -1,0 +1,1 @@
+*/20 * * * * cd trustnote-bot-example; node check_daemon.js 1>>~/.config/trustnote-bot-example/check_daemon.log 2>>~/.config/trustnote-bot-example/check_daemon.err
